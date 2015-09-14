@@ -1,2 +1,26 @@
-.banner{
-    background-image:
+.homediv{
+    border: 5px solid black;
+    height:500px;
+    width:1010px;
+    background-image: url(/assets/genderequality.png);
+    background-repeat: no-repeat;
+    background-size:1000px;
+
+}
+.homediv p{
+    font-size: 50px;
+}
+@keyframes slideInLeft {
+  from {
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInLeft {
+  animation-name: slideInLeft;
+}
